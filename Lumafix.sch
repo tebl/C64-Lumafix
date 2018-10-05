@@ -845,4 +845,6 @@ F 3 "" H 10825 825 50  0001 C CNN
 	1    10825 825 
 	1    0    0    -1  
 $EndComp
+Text Notes 7375 7500 0    60   ~ 0
+C64 Lumafix
 $EndSCHEMATC

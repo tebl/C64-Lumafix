@@ -1,4 +1,4 @@
-update=22/08/2018 17:53:56
+update=05/10/2018 20:33:01
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../Lumafix
@@ -62,3 +60,15 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=vicii
+[general]
+version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=export/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
