@@ -3,7 +3,7 @@
   (general
     (links 60)
     (no_connects 0)
-    (area 114.224999 102.159999 150.829762 155.650001)
+    (area 114.224999 102.159999 148.030001 155.650001)
     (thickness 1.6)
     (drawings 11)
     (tracks 128)
@@ -62,7 +62,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x011fc_80000001)
       (usegerberextensions true)
@@ -402,7 +402,7 @@
     (fp_text reference RV3 (at 1.27 -5.715 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CHR (at 1.27 5.08 360) (layer F.SilkS)
+    (fp_text value CLR (at 1.27 5.08 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_arc (start 0.955 1.15) (end 0.955 2.305) (angle -182) (layer F.SilkS) (width 0.12))
