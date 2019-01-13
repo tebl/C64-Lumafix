@@ -1,4 +1,5 @@
 # C64 Lumafix
+
 Based on Lumafix64 by e5frog over at the lemon64.com forums, this is a somewhat simplified version that should be easier to solder together for beginners with access to a reasonable set of soldering tools. Gone are the slightly confusing surface mount options that's mostly only suitable for those with more advanced skills or aim to have them premade with components from a fabrication company.
 
 For those not familiar with the Lumafix board, this is a board that attempts to minimize the amount of vertical banding that to some extent occurrs on most Commodore 64 computers when connected to a modern TV (C64C and other short boards seem to be affected the most). It doesn't remove the problem completely since it doesn't solve the root cause of them, but it cancels out most of the effect - granting you the best visual clarity you can get from the original hardware! The board plugs in between the VIC-II chip and your Commodore 64 motherboard.
@@ -41,10 +42,12 @@ Some vendors will have the same ICs in different form factors, the ones you want
 
 | Reference    | Item                                  | Count |
 | ------------ | ------------------------------------- | ----- |
-| PCB          | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/Commodore_64_Lumafix.html))  |     1 |
+| PCB          | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/Commodore_64_Lumafix.html?inviteid=88707))  |     1 |
 | C1-C2        | 47pf ceramic capacitor                |     2 |
 | C3           | 100nF ceramic capacitor               |     1 |
 | U1           | 74LS14 DIP-14                         |     1 |
 | U2           | 40 pin round pin header (break in 2)  |     1 |
 | U3           | DIP-40 IC Socket                      |     1 |
 | RV1-RV3      | 3296W Potentiometer 2k Ohm            |     3 |
+
+Please use the order link above when signing up to help me support this project, I'll get a small discount on future orders and hopefully that means I can afford to keep developing new and exciting modules in the future. By using the URL you won't have to deal with the rather daunting order forms for PCB fabrication, but if you want to go that route they'll probably want a zipped-up copy of the files in the export-directory!
