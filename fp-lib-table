@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name VICII_OUT)(type KiCad)(uri $KIPRJMOD/VICII_OUT.pretty)(options "")(descr ""))
+)

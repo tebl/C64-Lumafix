@@ -53,7 +53,7 @@ U 1 1 5B7D8B52
 P 2525 4300
 F 0 "U2" H 2525 4500 60  0000 C CNN
 F 1 "VICII_OUT" H 2525 4300 60  0000 C CNN
-F 2 "Housings_DIP:DIP-40_W15.24mm" H 2525 4300 60  0001 C CNN
+F 2 "VICII_OUT:VICII_OUT" H 2525 4300 60  0001 C CNN
 F 3 "" H 2525 4300 60  0001 C CNN
 	1    2525 4300
 	1    0    0    -1  
@@ -61,68 +61,68 @@ $EndComp
 $Comp
 L 74LS14 U1
 U 1 1 5B7D8BE5
-P 10125 3950
-F 0 "U1" H 10275 4050 50  0000 C CNN
-F 1 "74LS14" H 10325 3850 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 10125 3950 50  0001 C CNN
-F 3 "" H 10125 3950 50  0001 C CNN
-	1    10125 3950
-	1    0    0    -1  
+P 5700 7000
+F 0 "U1" H 5850 7100 50  0000 C CNN
+F 1 "74LS14" H 5900 6900 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 5700 7000 50  0001 C CNN
+F 3 "" H 5700 7000 50  0001 C CNN
+	1    5700 7000
+	0    -1   -1   0   
 $EndComp
 $Comp
 L 74LS14 U1
 U 2 1 5B7D8C56
-P 4825 1450
-F 0 "U1" H 4975 1550 50  0000 C CNN
-F 1 "74LS14" H 5025 1350 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 4825 1450 50  0001 C CNN
-F 3 "" H 4825 1450 50  0001 C CNN
-	2    4825 1450
-	0    1    1    0   
+P 5550 1825
+F 0 "U1" H 5700 1925 50  0000 C CNN
+F 1 "74LS14" H 5750 1725 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 5550 1825 50  0001 C CNN
+F 3 "" H 5550 1825 50  0001 C CNN
+	2    5550 1825
+	-1   0    0    1   
 $EndComp
 $Comp
 L 74LS14 U1
 U 3 1 5B7D8CBD
-P 5550 2750
-F 0 "U1" H 5700 2850 50  0000 C CNN
-F 1 "74LS14" H 5750 2650 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 5550 2750 50  0001 C CNN
-F 3 "" H 5550 2750 50  0001 C CNN
-	3    5550 2750
+P 5550 2675
+F 0 "U1" H 5700 2775 50  0000 C CNN
+F 1 "74LS14" H 5750 2575 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 5550 2675 50  0001 C CNN
+F 3 "" H 5550 2675 50  0001 C CNN
+	3    5550 2675
 	-1   0    0    1   
 $EndComp
 $Comp
 L 74LS14 U1
 U 4 1 5B7D8CF8
-P 10125 4275
-F 0 "U1" H 10275 4375 50  0000 C CNN
-F 1 "74LS14" H 10325 4175 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 10125 4275 50  0001 C CNN
-F 3 "" H 10125 4275 50  0001 C CNN
-	4    10125 4275
-	1    0    0    -1  
+P 6025 7000
+F 0 "U1" H 6175 7100 50  0000 C CNN
+F 1 "74LS14" H 6225 6900 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 6025 7000 50  0001 C CNN
+F 3 "" H 6025 7000 50  0001 C CNN
+	4    6025 7000
+	0    -1   -1   0   
 $EndComp
 $Comp
 L 74LS14 U1
 U 5 1 5B7D8D5B
-P 10125 4600
-F 0 "U1" H 10275 4700 50  0000 C CNN
-F 1 "74LS14" H 10325 4500 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 10125 4600 50  0001 C CNN
-F 3 "" H 10125 4600 50  0001 C CNN
-	5    10125 4600
-	1    0    0    -1  
+P 6350 7000
+F 0 "U1" H 6500 7100 50  0000 C CNN
+F 1 "74LS14" H 6550 6900 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 6350 7000 50  0001 C CNN
+F 3 "" H 6350 7000 50  0001 C CNN
+	5    6350 7000
+	0    -1   -1   0   
 $EndComp
 $Comp
 L 74LS14 U1
 U 6 1 5B7D8DD4
-P 10125 4925
-F 0 "U1" H 10275 5025 50  0000 C CNN
-F 1 "74LS14" H 10325 4825 50  0000 C CNN
-F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 10125 4925 50  0001 C CNN
-F 3 "" H 10125 4925 50  0001 C CNN
-	6    10125 4925
-	1    0    0    -1  
+P 6675 7000
+F 0 "U1" H 6825 7100 50  0000 C CNN
+F 1 "74LS14" H 6875 6900 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 6675 7000 50  0001 C CNN
+F 3 "" H 6675 7000 50  0001 C CNN
+	6    6675 7000
+	0    -1   -1   0   
 $EndComp
 $Comp
 L C_Small C1
@@ -441,12 +441,12 @@ Wire Bus Line
 $Comp
 L C_Small C3
 U 1 1 5B8D5A0A
-P 10825 925
-F 0 "C3" H 10835 995 50  0000 L CNN
-F 1 "104" H 10835 845 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 10825 925 50  0001 C CNN
-F 3 "" H 10825 925 50  0001 C CNN
-	1    10825 925 
+P 11025 800
+F 0 "C3" H 11035 870 50  0000 L CNN
+F 1 "104" H 11035 720 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 11025 800 50  0001 C CNN
+F 3 "" H 11025 800 50  0001 C CNN
+	1    11025 800 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -552,10 +552,6 @@ Entry Wire Line
 	1400 4950 1500 4850
 Entry Wire Line
 	1400 4875 1500 4775
-Entry Wire Line
-	1400 4800 1500 4700
-Wire Wire Line
-	1500 4700 1875 4700
 Wire Wire Line
 	1500 4775 1875 4775
 Wire Wire Line
@@ -570,8 +566,6 @@ Text Label 1850 4850 2    60   ~ 0
 PH0
 Text Label 1850 4775 2    60   ~ 0
 AEC
-Text Label 1850 4700 2    60   ~ 0
-LUM
 Text Label 1850 4475 2    60   ~ 0
 BA
 Entry Wire Line
@@ -636,12 +630,8 @@ Entry Wire Line
 	1400 2850 1500 2750
 Entry Wire Line
 	1400 2775 1500 2675
-Entry Wire Line
-	1400 2700 1500 2600
 Wire Wire Line
 	1325 2525 1875 2525
-Wire Wire Line
-	1500 2600 1875 2600
 Wire Wire Line
 	1500 2675 1875 2675
 Wire Wire Line
@@ -656,8 +646,6 @@ Text Label 1850 2750 2    60   ~ 0
 PH0
 Text Label 1850 2675 2    60   ~ 0
 AEC
-Text Label 1850 2600 2    60   ~ 0
-LUM
 Text Label 1850 2375 2    60   ~ 0
 BA
 Entry Wire Line
@@ -717,12 +705,12 @@ $EndComp
 $Comp
 L POT RV3
 U 1 1 5B99B838
-P 4825 4400
-F 0 "RV3" V 4650 4400 50  0000 C CNN
-F 1 "CLR" V 4725 4400 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3296W" H 4825 4400 50  0001 C CNN
-F 3 "" H 4825 4400 50  0001 C CNN
-	1    4825 4400
+P 4600 4525
+F 0 "RV3" V 4425 4525 50  0000 C CNN
+F 1 "CHR" V 4500 4525 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3296W" H 4600 4525 50  0001 C CNN
+F 3 "" H 4600 4525 50  0001 C CNN
+	1    4600 4525
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -757,94 +745,215 @@ Wire Wire Line
 	4575 2900 4675 2900
 Text Label 1850 2675 2    60   ~ 0
 AEC
-Text GLabel 1325 2525 0    60   Output ~ 0
-CLR_IN
 Wire Wire Line
 	1325 4625 1875 4625
-Text GLabel 1325 4625 0    60   Input ~ 0
-CLR_OUT
-Text GLabel 4825 4550 3    60   Input ~ 0
-CLR_IN
-Text GLabel 4525 4400 0    60   Output ~ 0
-CLR_OUT
+Text GLabel 4600 4675 3    60   Input ~ 0
+CHROMA_IN
 Wire Wire Line
-	4525 4400 4675 4400
+	4375 4525 4375 4375
 Wire Wire Line
-	4600 4400 4600 4250
-Wire Wire Line
-	4600 4250 4825 4250
-Connection ~ 4600 4400
-Entry Wire Line
-	3650 2575 3750 2475
-Wire Wire Line
-	3750 2475 4275 2475
-Text Label 4100 1000 2    60   ~ 0
+	4375 4375 4600 4375
+Connection ~ 4375 4525
+Text Label 3775 3400 0    60   ~ 0
 AEC
-Text Label 4100 2475 2    60   ~ 0
-LUM
 Wire Wire Line
-	4825 2750 5100 2750
+	4275 1600 4275 2900
 Wire Wire Line
-	4275 2050 4275 2900
-Wire Wire Line
-	4275 2050 4375 2050
-Connection ~ 4275 2475
+	4000 2050 4375 2050
 Wire Wire Line
 	4275 2900 4375 2900
 Entry Wire Line
-	3650 1100 3750 1000
+	3650 3500 3750 3400
 Wire Wire Line
-	3750 1000 4825 1000
+	3750 3400 6150 3400
 Entry Wire Line
-	3650 3625 3750 3525
+	3650 3400 3750 3300
 Wire Wire Line
-	3750 3525 6000 3525
-Text Label 4100 3525 2    60   ~ 0
+	3750 3300 6075 3300
+Text Label 3775 3300 0    60   ~ 0
 PH0
-Wire Wire Line
-	6000 3525 6000 2750
 $Comp
 L GND #PWR09
 U 1 1 5B9A3666
-P 9675 5100
-F 0 "#PWR09" H 9675 4850 50  0001 C CNN
-F 1 "GND" H 9675 4950 50  0000 C CNN
-F 2 "" H 9675 5100 50  0001 C CNN
-F 3 "" H 9675 5100 50  0001 C CNN
-	1    9675 5100
+P 6675 7600
+F 0 "#PWR09" H 6675 7350 50  0001 C CNN
+F 1 "GND" H 6675 7450 50  0000 C CNN
+F 2 "" H 6675 7600 50  0001 C CNN
+F 3 "" H 6675 7600 50  0001 C CNN
+	1    6675 7600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9675 3950 9675 5100
-Connection ~ 9675 4925
-Connection ~ 9675 4600
-Connection ~ 9675 4275
-NoConn ~ 10575 3950
-NoConn ~ 10575 4275
-NoConn ~ 10575 4600
-NoConn ~ 10575 4925
+	5700 7525 6675 7525
+Connection ~ 6675 7525
+Connection ~ 6350 7525
+Connection ~ 6025 7525
+NoConn ~ 5700 6550
+NoConn ~ 6025 6550
+NoConn ~ 6350 6550
+NoConn ~ 6675 6550
 $Comp
 L GND #PWR010
 U 1 1 5B9A40AD
-P 10825 1025
-F 0 "#PWR010" H 10825 775 50  0001 C CNN
-F 1 "GND" H 10825 875 50  0000 C CNN
-F 2 "" H 10825 1025 50  0001 C CNN
-F 3 "" H 10825 1025 50  0001 C CNN
-	1    10825 1025
+P 11025 900
+F 0 "#PWR010" H 11025 650 50  0001 C CNN
+F 1 "GND" H 11025 750 50  0000 C CNN
+F 2 "" H 11025 900 50  0001 C CNN
+F 3 "" H 11025 900 50  0001 C CNN
+	1    11025 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR011
 U 1 1 5B9A42CC
-P 10825 825
-F 0 "#PWR011" H 10825 675 50  0001 C CNN
-F 1 "VCC" H 10825 975 50  0000 C CNN
-F 2 "" H 10825 825 50  0001 C CNN
-F 3 "" H 10825 825 50  0001 C CNN
-	1    10825 825 
+P 11025 700
+F 0 "#PWR011" H 11025 550 50  0001 C CNN
+F 1 "VCC" H 11025 850 50  0000 C CNN
+F 2 "" H 11025 700 50  0001 C CNN
+F 3 "" H 11025 700 50  0001 C CNN
+	1    11025 700 
 	1    0    0    -1  
 $EndComp
 Text Notes 7375 7500 0    60   ~ 0
 C64 Lumafix
+$Comp
+L Conn_01x03 J1
+U 1 1 5D55675C
+P 7100 1000
+F 0 "J1" H 7100 1200 50  0000 C CNN
+F 1 "OUT" H 7100 800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 7100 1000 50  0001 C CNN
+F 3 "" H 7100 1000 50  0001 C CNN
+	1    7100 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 5D5569D3
+P 7100 1275
+F 0 "#PWR012" H 7100 1025 50  0001 C CNN
+F 1 "GND" H 7100 1125 50  0000 C CNN
+F 2 "" H 7100 1275 50  0001 C CNN
+F 3 "" H 7100 1275 50  0001 C CNN
+	1    7100 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1275 7100 1200
+Wire Wire Line
+	6925 1350 6925 1275
+Wire Wire Line
+	6925 1275 7000 1275
+Wire Wire Line
+	7000 1275 7000 1200
+Text GLabel 1325 4625 0    60   Input ~ 0
+CHROMA_OUT
+Text GLabel 1325 2525 0    60   Output ~ 0
+CHROMA_IN
+Text GLabel 1325 2650 0    60   Output ~ 0
+LUMA
+Wire Wire Line
+	1450 2600 1875 2600
+Text GLabel 1325 4750 0    60   Input ~ 0
+LUMA_OUT
+Wire Wire Line
+	1450 4700 1875 4700
+Wire Wire Line
+	1450 4700 1450 4750
+Wire Wire Line
+	1450 4750 1325 4750
+Wire Wire Line
+	1450 2600 1450 2650
+Wire Wire Line
+	1450 2650 1325 2650
+Text GLabel 7275 1350 3    60   Input ~ 0
+LUMA
+Wire Wire Line
+	7275 1350 7275 1275
+Wire Wire Line
+	7275 1275 7200 1275
+Wire Wire Line
+	7200 1275 7200 1200
+Text GLabel 4350 1600 2    60   Input ~ 0
+LUMA
+$Comp
+L Jumper_NC_Small JP1
+U 1 1 5D55C2DC
+P 4000 1800
+F 0 "JP1" H 4000 1880 50  0000 C CNN
+F 1 "LUM_SEP" H 4010 1740 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4000 1800 50  0001 C CNN
+F 3 "" H 4000 1800 50  0001 C CNN
+	1    4000 1800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4350 1475 2    60   Output ~ 0
+LUMA_OUT
+Connection ~ 4275 2050
+$Comp
+L Jumper_NC_Small JP2
+U 1 1 5D560428
+P 4000 4275
+F 0 "JP2" H 4000 4355 50  0000 C CNN
+F 1 "CHR_SEP" H 4010 4215 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4000 4275 50  0001 C CNN
+F 3 "" H 4000 4275 50  0001 C CNN
+	1    4000 4275
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4350 3950 2    60   Output ~ 0
+CHROMA_OUT
+Text GLabel 4350 4075 2    60   Output ~ 0
+CHROMA
+Text GLabel 6925 1350 3    60   Input ~ 0
+CHROMA
+Wire Wire Line
+	4000 4525 4450 4525
+Wire Wire Line
+	4275 4525 4275 4075
+Connection ~ 4275 4525
+Wire Wire Line
+	4825 2750 4825 2675
+Wire Wire Line
+	4825 2675 5100 2675
+Wire Wire Line
+	6000 2675 6075 2675
+Wire Wire Line
+	4825 1900 4825 1825
+Wire Wire Line
+	4825 1825 5100 1825
+Wire Wire Line
+	6000 1825 6150 1825
+Wire Wire Line
+	6075 2675 6075 3300
+Wire Wire Line
+	6150 1825 6150 3400
+Wire Wire Line
+	4350 1600 4275 1600
+Wire Wire Line
+	4350 1475 4000 1475
+Wire Wire Line
+	4000 1475 4000 1700
+Wire Wire Line
+	4000 1900 4000 2050
+Wire Wire Line
+	4275 4075 4350 4075
+Wire Wire Line
+	4000 4375 4000 4525
+Wire Wire Line
+	4000 3950 4350 3950
+Wire Wire Line
+	6675 7450 6675 7600
+Wire Wire Line
+	5700 7450 5700 7525
+Wire Wire Line
+	6025 7450 6025 7525
+Wire Wire Line
+	6350 7450 6350 7525
+Wire Wire Line
+	4000 4175 4000 3950
+Text Notes 10575 7650 0    60   ~ 0
+B
+Text Notes 7000 7125 0    60   ~ 0
+An easy to solder version of the Lumafix module for the Commodore 64, has added\nconnection points for use with the custom modulator replacement. Add CHR_SEP/LUM_SEP\nwirelinks if using module with stock modulator.\n\nTurn all potentiometers anti-clockwise, then start at the top and adjust until satisfied\nwith the startup screen.
 $EndSCHEMATC
