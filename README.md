@@ -6,12 +6,14 @@ For those not familiar with the Lumafix board, this is a board that attempts to 
 
 ![Lumafix installed](https://github.com/tebl/C64-Lumafix/raw/master/Gallery/2018-10-06%2023.15.37.jpg)
 
-All of the components have, where applicable, been picked out so that it can be built as cheap as possible for people wanting to do this as a fun project in the home workshop (or kitchen table if that is what you have). For a complete list of components, see the BOM list below. 
+All of the components have, where applicable, been picked out so that it can be built as cheap as possible for people wanting to do this as a fun project in the home workshop (or kitchen table if that is what you have). For a complete list of components, see the BOM below. 
 
-## Soldering it together
+## Building the board
 The recommended sequence of components to be soldered in place is as follows:
 
-1. Solder in place the round pin headers into the position marked U2, the 40 pin strip should be cut in half so that you have two sections with 20 pins each. Take a look at the PCB, see two sections with 2x20 holes in them? These pins should be soldered on the top side of the PCB in the right set of 20 pin holes. The rest of the components from here on in are soldered on the backside as usual! You can use a spare 40 pin socket to ensure that the pins line up nicely before soldering them in place, if the board is going into a Commodore 64C you should shorten the pins with so that the board fits flush with the socket.
+1. Check errata below for relevant changes
+2. Read through the secion "Signal bypass" below if you have a revision B or later board, decide which functionality you want the board to have.
+2. Solder in place the round pin headers into the position marked U2, the 40 pin strip should be cut in half so that you have two sections with 20 pins each. Take a look at the PCB, see two sections with 2x20 holes in them? These pins should be soldered on the top side of the PCB in the right set of 20 pin holes. The rest of the components from here on in are soldered on the backside as usual! You can use a spare 40 pin socket to ensure that the pins line up nicely before soldering them in place, if the board is going into a Commodore 64C you should shorten the pins with so that the board fits flush with the socket.
 2. Solder in the three ceramic capacitors, note that C3 has a different value than the other two.
 3. Solder in a 40 pin socket for U3, a 14 pin socket for U1. Note that sockets have an indent on one side indicating pin 1, this should be matched to a similar indent on the PCB silkscreen.
 4. Solder the three potentiometers into place with the adjustment screw down towards the bottom. Temporarily hold them in place using tape to get the orientation just right if you like everything to be lined up perfectly, solder one pin in place and change orientation - heat up solder joint and reorient it until satisfied. Solder the rest of the pins now!
@@ -22,7 +24,18 @@ Inspect the board thoroughly until you are satisfied that none of the pins haven
 ![Step 2](https://github.com/tebl/C64-Lumafix/raw/master/Gallery/2018-10-07%2000.57.11.jpg)
 ![Step 3](https://github.com/tebl/C64-Lumafix/raw/master/Gallery/2018-10-06%2001.15.19.jpg)
 
-## Testing it out
+### Signal bypass
+When developing the [C64 Modulator Replacement](https://github.com/tebl/C64-Modulator-Replacement), there was an increase in the amount of visible jailbars on the screen (of the kind the Lumafix was made to smoothe over). This is due to crosstalk between video signals travelling across the motherboard in close proximity to other signals, the Lumafix attempts to remove these by adding the reverse of the same signals. I did however find that most of the issues disappear if the signals are run directly between the modulator board and the Lumafix with most of the circuitry no longer needed in this combination - video signals are wired directly to the modulator instad (bypassing the noise on the motherboard itself).
+
+- If you want to build a standard revision B Lumafix board **without** replacing the modulator, then you should install two pieces of wire across the two jumpers marked CHR_SEP and LUM_SEP.
+- If you want to build a standard revision B Lumafix board for use **with** the modulator replacement, install a piece of wire across pin 1-2 of the bottom potentiometer footprint. Run CHR/LUM wires from Lumafix board to the modulator replacement.
+
+![Revision B passthrough](https://github.com/tebl/C64-Lumafix/raw/master/Gallery/rev_b_passthrough.png)
+
+### Errata
+- No issues noted so far, but thanks for checking!
+
+## Installing the board
 Did all the checking for shorts, board cleaning and ready to continue? If not, do so now (I'll wait)! Locate the VIC-II chip, it's a 40 pin IC like the board we just soldered together - mine was marked 8565 - to be sure you get the right one, check the [Wikipedia](https://en.wikipedia.org/wiki/MOS_Technology_VIC-II#List_of_VIC-II_versions) site for various IC version numbers to look for.
 
 Now, this Commodore 64 you've opened up is probably over 30 years old so don't touch anything that you don't need to. When removing the IC it may appear stuck - don't yank on it, just carefully ease it out. If you don't have a dedicated IC-extractor, you _can_ use a flat screwdriver - just loosen it slightly from each side until it comes loose, take care not to scrape it against the motherboard under the socket! Insert the extracted IC into the board you just built, matching the indent to the socket while taking care that all pins goes into the socket and don't get stuck or bent underneath it. Insert the board into the now empty socket on the motherboard, taking care to match the orientation to the socket.
@@ -31,6 +44,9 @@ Turn all the potentiometers anti-clockwise all the way until you can hear you're
 
 Note that the values dialed in will be very specific for the TV you'll be using, so test it out on the TV-setup you'll be using. Some TVs need more help than others, if you're lucky enough to still own a CRT you probably won't need this in the first place!
 
+If you decided to build a revision B, or later version, of the Lumafix with signal bypass you need to run wires directly from the top of the board to the relevant points on the modulator replacement (these are labelled LUM and CHR on both boards, wire to the top pads on the modulator replacement board).
+
+![Lumafix with modulator replacement](https://github.com/tebl/C64-Lumafix/raw/master/Gallery/2019-09-25%2023.01.22.jpg)
 
 # Schematic
 The supplied KiCad files should be sufficient as both a schematic and as a  starting point for ordering PCBs (basically you could just zip the contents of the export folder and upload that on a fabrication site), the schematic is also available in [PDF-format](https://github.com/tebl/C64-Lumafix/raw/master/export/Lumafix.pdf) and this is what you'll need to print and work your way through this things don't work as expected after assembly.
