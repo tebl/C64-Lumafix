@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 113.03 96.815 150.829762 158.115001)
     (thickness 1.6)
-    (drawings 27)
+    (drawings 32)
     (tracks 147)
     (zones 0)
     (modules 12)
@@ -611,7 +611,7 @@
       (net 4 GND))
     (pad 14 thru_hole oval (at 7.62 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 3 VCC))
-    (model ${KISYS3DMOD}/Housings_DIP.3dshapes/DIP-14_W7.62mm_Socket.wrl
+    (model Housings_DIP.3dshapes/DIP-14_W7.62mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -817,11 +817,6 @@
       (net 43 LUMA))
     (pad 2 thru_hole oval (at 0 2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 45 LUMA_OUT))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.54mm.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 5D5576F5) (tstamp 5D557975)
@@ -857,13 +852,15 @@
       (net 44 CHROMA))
     (pad 2 thru_hole oval (at 0 2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 46 CHROMA_OUT))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.54mm.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
+  (gr_text PASSTHROUGH (at 141.605 130.81 270) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (gr_line (start 144.78 130.175) (end 144.78 130.81) (angle 90) (layer B.SilkS) (width 0.2))
+  (gr_line (start 144.78 131.445) (end 144.78 130.81) (angle 90) (layer B.SilkS) (width 0.2))
+  (gr_line (start 144.145 132.08) (end 144.78 132.08) (angle 90) (layer B.SilkS) (width 0.2))
+  (gr_line (start 144.145 129.54) (end 144.78 129.54) (angle 90) (layer B.SilkS) (width 0.2))
   (gr_text "Rev. B" (at 118.11 100.965) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
