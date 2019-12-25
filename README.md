@@ -58,7 +58,7 @@ Some vendors will have the same ICs in different form factors, the ones you want
 
 | Reference    | Item                                  | Count |
 | ------------ | ------------------------------------- | ----- |
-| PCB          | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/Commodore_64_Lumafix.html?inviteid=88707))  |     1 |
+| PCB          | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/Commodore_64_Lumafix__revision_B_.html?inviteid=88707))  |     1 |
 | C1-C2        | 47pf ceramic capacitor                |     2 |
 | C3           | 100nF ceramic capacitor               |     1 |
 | U1           | 74LS14 DIP-14                         |     1 |
